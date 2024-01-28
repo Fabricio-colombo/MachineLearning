@@ -1,11 +1,11 @@
-Projeto Python IA: Inteligência Artificial e Previsões
+# Python AI Project: Artificial Intelligence and Predictions
 
-Bem-vindo ao projeto Python IA: Inteligência Artificial e Previsões. Neste projeto, desenvolvemos um modelo para determinar o score de crédito dos clientes de um banco. O objetivo é criar um sistema capaz de analisar informações dos clientes e classificar automaticamente o score de crédito como Ruim, Ok ou Bom.
+Welcome to the Python AI Project: Artificial Intelligence and Predictions. In this project, we have developed a model to determine the credit score of a bank's customers. The goal is to create a system capable of analyzing customer information and automatically classifying the credit score as Poor, Fair, or Good.
 
-Estrutura do Projeto
-clientes.csv: Arquivo contendo dados históricos dos clientes, utilizado para treinar o modelo.
-ia.ipynb: Notebook Jupyter com o código principal do projeto.
-inicial.ipynb: Notebook Jupyter com códigos iniciais e experimentações.
-novos_clientes.csv: Arquivo contendo dados de novos clientes para os quais faremos previsões.
+## Project Structure
+- **clientes.csv:** File containing historical customer data used for training the model.
+- **ia.ipynb:** Jupyter Notebook with the main code of the project.
+- **inicial.ipynb:** Jupyter Notebook with initial codes and experiments.
+- **novos_clientes.csv:** File containing data of new customers for whom we will make predictions.
 
-O projeto de Inteligência Artificial tem como objetivo desenvolver um modelo de previsão de crédito para um banco. Utilizando dados históricos de clientes presentes no arquivo "clientes.csv", realizamos a preparação e treinamento do modelo com o auxílio das bibliotecas Pandas e Scikit-Learn. Implementamos algoritmos como RandomForestClassifier e KNeighborsClassifier, alcançando uma acurácia de aproximadamente 82.51% e 73.24%, respectivamente. O pré-processamento envolveu a codificação de variáveis categóricas e a separação dos dados em conjuntos de treino e teste. Além disso, fizemos previsões para novos clientes contidos no arquivo "novos_clientes.csv". Ao analisar a importância das features, destacamos que a "divida_total" e o "mix_credito" são fatores significativos no processo de decisão do modelo. Este projeto representa uma aplicação prática de I.A. no setor financeiro, proporcionando uma ferramenta valiosa para avaliação automática de crédito.
+The Artificial Intelligence project aims to develop a credit prediction model for a bank. Using historical customer data from the "clientes.csv" file, we performed data preparation and model training with the help of Pandas and Scikit-Learn libraries. We implemented algorithms such as RandomForestClassifier and KNeighborsClassifier, achieving an accuracy of approximately 82.51% and 73.24%, respectively. The preprocessing involved the encoding of categorical variables and the separation of data into training and testing sets. Additionally, we made predictions for new customers in the "novos_clientes.csv" file. Analyzing the importance of features, we highlighted that "total_debt" and "credit_mix" are significant factors in the model's decision-making process. This project represents a practical application of A.I. in the financial sector, providing a valuable tool for automated credit assessment.
